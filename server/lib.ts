@@ -12,5 +12,6 @@ export type AttackMethod =
   | "http_flood"
   | "http_bypass"
   | "http_slowloris"
+  | "udp_flood"
   | "tcp_flood"
   | "minecraft_ping";
